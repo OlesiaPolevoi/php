@@ -1,0 +1,13 @@
+.footer__info {
+  @include font(500, 1.4rem, 140%);
+  color: #959aae;
+  margin-top: -7rem;
+}
+
+@media (max-width: 48em) {
+  .footer__info {
+    font-weight: 500;
+    font-size: 2.6rem;
+    line-height: 140%;
+  }
+}

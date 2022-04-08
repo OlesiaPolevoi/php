@@ -1,0 +1,13 @@
+.clients .container {
+  max-width: 111rem;
+  height: 16.7rem;
+  margin-bottom: 17rem;
+}
+
+@media (max-width: 48em) {
+  .clients .container {
+    margin-top: 60rem;
+    height: 10rem;
+    margin-bottom: 45rem;
+  }
+}

@@ -1,0 +1,13 @@
+.footer__arrow-img {
+  height: 2.9rem;
+  width: 2.9rem;
+  margin-right: 0.9rem;
+}
+
+@media (max-width: 48em) {
+  .footer__arrow-img {
+    height: 5.9rem;
+    width: 5.9rem;
+    margin-right: 2rem;
+  }
+}

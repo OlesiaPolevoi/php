@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-size: 62.5%;
+}
+
+.container {
+  width: 117rem;
+  margin: 0 auto;
+}
+
+@import "../blocks/header/header.css";
+
+/*
+ font-family: 'Inter', sans-serif;
+font-family: 'Manrope', sans-serif;
+*/

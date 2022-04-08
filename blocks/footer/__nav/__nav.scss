@@ -1,0 +1,12 @@
+.footer__nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+@media (max-width: 48em) {
+  .footer__nav {
+    margin-bottom: 4rem;
+  }
+}

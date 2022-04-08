@@ -1,0 +1,9 @@
+.grid__row-two {
+  margin-left: 7.1rem;
+}
+
+@media (max-width: 48em) {
+  .grid__row-two {
+    margin-left: 0;
+  }
+}

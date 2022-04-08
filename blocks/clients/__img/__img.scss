@@ -1,0 +1,29 @@
+.clients__img {
+  padding: 3.4rem;
+}
+
+@media (max-width: 48em) {
+  .clients__img {
+    margin: 1.5rem;
+    padding: 0rem;
+  }
+
+  .clients__img:nth-of-type(1) {
+    order: -1;
+    max-width: 15.6rem;
+  }
+  .clients__img:nth-of-type(5) {
+    order: -1;
+    max-width: 17.6rem;
+  }
+  .clients__img:nth-of-type(2) {
+    order: 1;
+    max-width: 24.6rem;
+    margin-top: -2rem;
+  }
+  .clients__img:nth-of-type(6) {
+    order: 1;
+    max-width: 24.8rem;
+    margin-top: -2.9rem;
+  }
+}

@@ -1,0 +1,15 @@
+.test-drive__wrap {
+  position: absolute;
+  top: 9.5rem;
+  left: 31.4rem;
+}
+@media (max-width: 48em) {
+  .test-drive__wrap {
+    position: initial;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

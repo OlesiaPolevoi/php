@@ -1,0 +1,13 @@
+.catalog__wrap {
+  display: grid;
+  grid-template-columns: repeat(4, 28.1rem);
+  gap: 2.3rem 1.6rem;
+  margin-bottom: 4.5rem;
+}
+
+@media (max-width: 48em) {
+  .catalog__wrap {
+    grid-template-columns: repeat(2, 49%);
+
+  }
+}

@@ -1,0 +1,24 @@
+.footer__text {
+  color: #e7eaef;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 140%;
+  width: 70rem;
+}
+
+.footer__text:not(:first-child) {
+  font-weight: 400;
+  font-size: 1.7rem;
+}
+
+@media (max-width: 48em) {
+  .footer__text {
+    font-weight: 400;
+    font-size: 3rem;
+    max-width: 50rem;
+  }
+  .footer__text:not(:first-child) {
+    font-weight: 400;
+    font-size: 3rem;
+  }
+}

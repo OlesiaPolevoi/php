@@ -1,0 +1,15 @@
+.test-drive__text {
+  @include font(400, 1.9rem, 160%);
+  color: #576077;
+  max-width: 57.8rem;
+  margin-bottom: 3.1rem;
+}
+
+@media (max-width: 48em) {
+  .test-drive__text {
+    @include font(400, 2.8rem, 160%);
+    text-align: center;
+    max-width: 57.6rem;
+    margin-bottom: 2.2rem;
+  }
+}

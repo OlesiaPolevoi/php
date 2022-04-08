@@ -1,0 +1,71 @@
+.test-drive__img {
+  background-image: url("../img/test-drive/test-drive.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 180rem;
+  height: 58.4rem;
+  position: relative;
+  z-index: -10;
+}
+
+.test-drive__img-person {
+  background-image: url("../img/test-drive/test-drive-person.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  width: 59.5rem;
+  height: 57.1rem;
+  top: -7.5rem;
+  left: 95rem;
+  z-index: 10;
+}
+.test-drive__img-person-mobile {
+  display: none;
+}
+
+@media (max-width: 48em) {
+  .test-drive__img {
+    display: none;
+  }
+  .test-drive__img-person {
+    display: none;
+  }
+
+  .test-drive__img-mobile {
+    display: block;
+    background-image: url("../img/test-drive/test-drive-mobile.png");
+    position: relative;
+    left: -5.5rem;
+
+    z-index: -10;
+    width: 62.8rem;
+    height: 65.4rem;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .test-drive__img-person-mobile {
+    display: block;
+    background-image: url("../img/test-drive/test-drive-person.png");
+    position: absolute;
+    top: -2rem;
+    left: -4rem;
+
+    z-index: 10;
+    width: 60.6rem;
+    height: 58.2rem;
+    margin-right: auto;
+    margin-left: auto;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+}

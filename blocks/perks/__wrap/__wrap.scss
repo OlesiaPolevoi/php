@@ -1,0 +1,32 @@
+.perks__wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.perks__wrap:not(:last-child) {
+  padding-right: 6.8rem;
+}
+
+.perks__wrap-column {
+  text-align: center;
+}
+
+@media (max-width: 48em) {
+  .perks__wrap {
+    flex-direction: row;
+  }
+
+  .perks__wrap:not(:last-child) {
+    padding-right: 0;
+    padding-bottom: 2rem;
+  }
+
+  .perks__wrap-column {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+} ;

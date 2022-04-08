@@ -1,0 +1,16 @@
+.slider__header {
+  @include font(900, 5.4rem, 120%);
+  strong {
+    display: block;
+    font-weight: 900;
+  }
+}
+
+@media (max-width: 48em) {
+  .slider__header {
+    font-weight: 500;
+    font-size: 3.4rem;
+    line-height: 120%;
+    padding-top: 1.5rem;
+  }
+}

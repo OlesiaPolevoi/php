@@ -1,0 +1,7 @@
+.header__button-mobile {
+  @include font(500, 3.2rem, 140%);
+
+  color: #2b3350;
+  padding: 2.7rem 5.7rem 3.1rem;
+  margin-bottom: 2rem;
+}

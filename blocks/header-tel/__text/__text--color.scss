@@ -1,0 +1,10 @@
+.header-tel__text--color {
+  color: $color-text-black;
+}
+
+@media (max-width: 48em) {
+  .header__mobile-tel__text--color {
+    color: #0074d4;
+    text-decoration-line: underline;
+  }
+}

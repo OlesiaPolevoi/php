@@ -1,0 +1,12 @@
+.perks__link {
+  @include font(normal, 1.5rem, 150%);
+  text-align: center;
+  color: #959aae;
+  border-bottom: 0.1rem dashed #e7eaef;
+}
+
+@media (max-width: 48em) {
+  .perks__link {
+    font-size: 2.6rem;
+  }
+}

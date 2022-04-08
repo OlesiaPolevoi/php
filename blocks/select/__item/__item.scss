@@ -1,0 +1,7 @@
+.select__item {
+  @include font(500, 1.6rem, 140%);
+
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}

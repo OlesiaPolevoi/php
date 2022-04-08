@@ -1,0 +1,15 @@
+.test-drive__title {
+  @include font(900, 4.4rem, 120%);
+  color: #2b3350;
+  max-width: 68.2rem;
+  margin-bottom: 1.6rem;
+}
+
+@media (max-width: 48em) {
+  .test-drive__title {
+    @include font(900, 4.4rem, 120%);
+    text-align: center;
+    max-width: 57.6rem;
+    margin-bottom: 1.3rem;
+  }
+}

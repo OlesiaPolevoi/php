@@ -1,0 +1,14 @@
+.slider__back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+}
+
+@media (max-width: 48em) {
+  .slider__back {
+    width: 127%;
+    height: 34.4rem;
+  }
+}

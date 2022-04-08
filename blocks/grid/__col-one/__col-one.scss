@@ -1,0 +1,9 @@
+.grid__col-one {
+  padding-left: 7.1rem;
+}
+
+@media (max-width: 48em) {
+  .grid__col-one {
+    padding-left: 0rem;
+  }
+}

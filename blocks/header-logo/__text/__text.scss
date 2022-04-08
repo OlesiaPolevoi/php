@@ -1,0 +1,10 @@
+.header-logo__text {
+  @include font(normal, 1rem, 150%);
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: -0.5rem;
+
+  &--color {
+    color: #959aae;
+  }
+}
